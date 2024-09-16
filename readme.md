@@ -42,5 +42,3 @@ Avoid colliding with other cars as you navigate through traffic.
 ### الهدف:
 تجنب الاصطدام بالسيارات الأخرى أثناء التنقل عبر حركة المرور.
 
----
-hs
