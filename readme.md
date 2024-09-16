@@ -43,5 +43,4 @@ Avoid colliding with other cars as you navigate through traffic.
 تجنب الاصطدام بالسيارات الأخرى أثناء التنقل عبر حركة المرور.
 
 ---
-
-Wenn du noch Änderungen oder Ergänzungen brauchst, lass es mich wissen!
+hs
