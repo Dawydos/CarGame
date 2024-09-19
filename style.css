@@ -1,6 +1,7 @@
+
 body {
-    margin: 0; /* Entfernt Standard-Abstände vom Browser */
-    overflow: hidden; /* Verhindert das Scrollen */
+    margin: 0;
+    overflow: hidden;
 }
 
 canvas {
@@ -8,28 +9,46 @@ canvas {
     background-color: #f4f4f4;
     display: block;
     margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
 }
 
 .volume-controls {
     display: flex;
     gap: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
 }
 
-.volume-icon {
-    font-size: 24px;
+#muteIcon, #unmuteIcon {
+    font-size: 48px;
     cursor: pointer;
 }
 
-/* Größe und Stil für die Icons */
-#muteIcon, #unmuteIcon {
-    font-size: 48px; /* Größe der Icons anpassen */
-    cursor: pointer;  /* Mauszeiger als Hand anzeigen */
-}
-
 #muteIcon {
-    color: red; /* Optional: Farbe für das Stummschalt-Icon */
+    color: red;
 }
 
 #unmuteIcon {
-    color: green; /* Optional: Farbe für das Laut-Icon */
+    color: green;
 }
+
+button {
+    background-color: #4CAF50; /* Grün */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
