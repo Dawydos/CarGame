@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6ccd5270eb.js" crossorigin="anonymous"></script>
-    <title>Fahrspiel</title>
+    <title>CarGame</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
+    <div class="volume-controls">
         <i class="fa-solid fa-volume-xmark" id="muteIcon"></i>
-    </div>
-    <div>
         <i class="fa-solid fa-volume-high" id="unmuteIcon" style="display: none;"></i>
     </div>
-    <canvas id="gameCanvas"></canvas>
     
+    <canvas id="gameCanvas"></canvas>
+
     <audio id="gameMusic" src="assets/document_5422708180444532835.mp4" loop></audio>
 
     <script src="game.js" type="module"></script>
